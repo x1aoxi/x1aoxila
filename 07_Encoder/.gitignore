@@ -1,0 +1,36 @@
+# Keil MDK 编译产物
+MDK-ARM/07_Encoder/*.o
+MDK-ARM/07_Encoder/*.d
+MDK-ARM/07_Encoder/*.crf
+MDK-ARM/07_Encoder/*.axf
+MDK-ARM/07_Encoder/*.htm
+MDK-ARM/07_Encoder/*.map
+MDK-ARM/07_Encoder/*.lnp
+MDK-ARM/07_Encoder/*.dep
+MDK-ARM/07_Encoder/*.lst
+MDK-ARM/07_Encoder/*.hex
+MDK-ARM/07_Encoder/*.build_log.htm
+MDK-ARM/07_Encoder/*.sct
+MDK-ARM/07_Encoder/*.Bak
+MDK-ARM/*.uvguix.*
+MDK-ARM/*.uvoptx
+MDK-ARM/RTE/
+
+# LVGL库 (太大，不需要版本控制)
+../lvgl/
+
+# 其他工程目录
+../Motor_Control_System_v1/
+
+# IDE 配置
+.vscode/
+*.uvgui.*
+*.bak
+*.BAK
+
+# 系统文件
+Thumbs.db
+.DS_Store
+
+# Claude配置
+.claude/
